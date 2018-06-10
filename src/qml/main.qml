@@ -107,7 +107,7 @@ Kirigami.ApplicationWindow
         id: gamearea
         anchors.bottomMargin: 40
         anchors.fill: parent
-        readonly property int boardsize: 2
+        readonly property int boardsize: 15
         readonly property var colorList: [ "red", "darkGreen", "blue", "yellow", "darkMagenta", "orange" ]
         property int fillcounter: 0
         property bool filled: false
