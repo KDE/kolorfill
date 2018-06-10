@@ -23,15 +23,25 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QIcon>
+import QtTest 1.0
+import "../src/qml/KolorFillUtils.js" as Utils
 
-
-int main(int argc, char *argv[])
-{
-    QGuiApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme("color-fill"));
-    QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
-    return app.exec();
+TestCase {
+    name: "createBoard"
+    function test_small_board() {
+        var board = Utils.createBoard(1, ["black"]);
+        compare(board.length, 1, "wrong one dimension");
+        compare(board[0].length, 1, "wrong other dimension");
+        compare(board[0][0], "black", "wrong content");
+    }
+    function test_larger_board() {
+        var board = Utils.createBoard(5, ["black"]);
+        compare(board.length, 5, "wrong one dimension");
+        for(var i = 0 ; i < board.length; i++) {
+            compare(board[i].length, 5, "wrong other dimension");
+            for(var j = 0 ; j < board[i].length; j++) {
+                compare(board[i][j], "black", "wrong content");
+            }
+        }
+    }
 }

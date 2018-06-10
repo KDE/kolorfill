@@ -23,15 +23,29 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QIcon>
+import QtTest 1.0
+import "../src/qml/KolorFillUtils.js" as Utils
 
+TestCase {
+    name: "checkWin"
+    function test_win1() {
+        var board = Utils.createBoard(1, ["black"]);
+        var win = Utils.checkWin(board);
+        compare(win,true,"simple win");
 
-int main(int argc, char *argv[])
-{
-    QGuiApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme("color-fill"));
-    QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
-    return app.exec();
+    }
+    function test_win2() {
+        var board = Utils.createBoard(4, ["black"]);
+        var win = Utils.checkWin(board);
+        compare(win,true,"simple win");
+
+    }
+    function test_win3() {
+        var board = Utils.createBoard(4, ["black"]);
+        board[3][3]="red";
+        var win = Utils.checkWin(board);
+        compare(win,false,"simple nonwin");
+
+    }
 }
+

@@ -23,15 +23,34 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QIcon>
+import QtTest 1.0
+import "../src/qml/KolorFillUtils.js" as Utils
 
+TestCase {
+    name: "gatherNeighbors"
+    function test_gather_neighbors_small() {
+        var n = Utils.gatherNeighbors(Qt.point(0,0),0);
+        compare(n.length, 0, "Unexpected neighbor count" )
+    }
 
-int main(int argc, char *argv[])
-{
-    QGuiApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme("color-fill"));
-    QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
-    return app.exec();
+    function test_gather_neighbors_small2() {
+        var n = Utils.gatherNeighbors(Qt.point(0,0),1);
+        compare(n.length, 2, "Unexpected neighbor count" )
+        compare(n, [Qt.point(1,0),Qt.point(0,1)],"content")
+    }
+
+    function test_gather_neighbors_larger() {
+        var n = Utils.gatherNeighbors(Qt.point(5,4),8);
+        compare(n.length, 4, "Unexpected neighbor count" )
+        compare(n, [Qt.point(4,4),Qt.point(6,4),Qt.point(5,3),Qt.point(5,5)],"content")
+    }
+
+    function test_gather_neighbors_larger2() {
+        var n = Utils.gatherNeighbors(Qt.point(5,4),5);
+        compare(n.length, 3, "Unexpected neighbor count" )
+        compare(n, [Qt.point(4,4),Qt.point(5,3),Qt.point(5,5)],"content")
+    }
+
 }
+
+

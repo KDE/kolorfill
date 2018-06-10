@@ -23,15 +23,5 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QIcon>
-
-
-int main(int argc, char *argv[])
-{
-    QGuiApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme("color-fill"));
-    QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
-    return app.exec();
-}
+#include <QtQuickTest>
+QUICK_TEST_MAIN(kolorfill);
