@@ -39,6 +39,7 @@ function checkWin(board) {
 }
 
 // gather the neighbor points from a given point, if they exist within the max.
+// helper function for 'fill'
 function gatherNeighbors(point, max) {
     var n = []
     if (point.x > 0) {
