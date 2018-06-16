@@ -23,12 +23,9 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-
-
 import QtQuick 2.0
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.2
-import "KolorFillUtils.js" as Utils
 import org.kde.kirigami 2.4 as Kirigami
 import KolorFill 1.0
 
@@ -39,7 +36,7 @@ Kirigami.ApplicationWindow
     height: 640
     title: "KolorFill"
     header: Kirigami.Heading {
-        text: "Fills: " + gamearea.fillcounter
+        text: "Fills: " + gamearea.fillCounter
     }
 
     HighScore {
@@ -72,9 +69,7 @@ Kirigami.ApplicationWindow
     Kirigami.OverlaySheet {
         id: help
         header: Kirigami.Heading { text: "Help" }
-        Label {
-            text: "Simple color fill application. By selecting a color, the boad gets flood filled from top left. The goal is to make the board in one color in as few fills as possible."
-            wrapMode: TextArea.Wrap
+        Help {
         }
     }
 
@@ -83,138 +78,48 @@ Kirigami.ApplicationWindow
         header: Kirigami.Heading {
             text: "High score"
         }
-        ColumnLayout {
-            ListView {
-                Layout.fillWidth: true
-                id: highscoreview
-                model: highscorehandler.allHighscores
-                height: 200
-                header: Row {
-                    Label {
-                        text: "Board size: "
-                        width: highscoreview.width / 2
-                    }
-                    Label {
-                        text: "Fills: "
-                        width: highscoreview.width / 2
-                    }
-                }
-                delegate: Row {
-                    Label {
-                        text: modelData.size
-                        width: highscoreview.width / 2
-                    }
-                    Label {
-                        text: modelData.highscore
-                        width: highscoreview.width / 2
-                    }
-                }
-            }
+        HighScoreView {
+             allHighscores: highscorehandler.allHighscores
+
         }
+
     }
     Kirigami.OverlaySheet {
         id: winner
         header: Kirigami.Heading {
             text: "Winner!"
         }
-        property bool highscorebeaten: false
-        ColumnLayout {
-            Label {
-                Layout.fillWidth: true
-                text: "You succesfully solved the puzzle in " + gamearea.fillcounter + " fills. Good luck beating that."
-                wrapMode: TextArea.Wrap
-            }
-            Label {
-                Layout.fillWidth: true
-                text: "You beat the highscore"
-                wrapMode: TextArea.Wrap
-                visible: winner.highscorebeaten
-            }
-            Button {
-                text: "Restart"
-                onClicked: {
-                    gamearea.restart()
-                    winner.sheetOpen = false
-                }
+        property alias highscorebeaten: winBanner.highscoreBeaten;
+        Winner {
+            id: winBanner
+            fillCounter: gamearea.fillCounter
+            onRestartClicked: {
+                gamearea.restart()
+                winner.sheetOpen = false
             }
         }
     }
 
-    Item {
+    GameArea {
         id: gamearea
         anchors.bottomMargin: 40
         anchors.fill: parent
-        readonly property int boardsize: 15
-        readonly property var colorList: [ "red", "darkGreen", "blue", "yellow", "darkMagenta", "orange" ]
-        property int fillcounter: 0
-        property bool filled: false
-        property var board: []
+        boardsize: 15
+        colorList: [ "red", "darkGreen", "blue", "yellow", "darkMagenta", "orange" ]
         Component.onCompleted: {
             gamearea.restart()
         }
         onFilledChanged: {
             if (filled) {
-                winner.highscorebeaten = (highscorehandler.highscore < gamearea.fillcounter) || (highscorehandler.highscore === -1)
+                console.log(highscorehandler.highscore)
+                console.log(gamearea.fillCounter)
+                winner.highscorebeaten = (highscorehandler.highscore > gamearea.fillCounter) || (highscorehandler.highscore === -1)
+                console.log(winner.highscorebeaten)
                 if (winner.highscorebeaten) {
-                    highscorehandler.highscore = gamearea.fillcounter;
+                    highscorehandler.highscore = gamearea.fillCounter;
                 }
             }
             winner.sheetOpen = filled
-        }
-        function fill(color,board) {
-            var changed = Utils.fill(color,board)
-            if (!changed) {
-                return
-            }
-            gamearea.fillcounter++
-            gamearea.filled = Utils.checkWin(board)
-            canvas.requestPaint()
-        }
-        function restart() {
-            gamearea.board = Utils.createBoard(boardsize,colorList)
-            gamearea.fillcounter = 0
-            gamearea.filled = Utils.checkWin(board)
-            canvas.requestPaint()
-        }
-        Canvas {
-            anchors.fill: parent
-            anchors.margins: 20
-            anchors.bottomMargin: 120
-            anchors.topMargin: 40
-            id: canvas;
-            onPaint: {
-                var ctx = getContext("2d")
-                ctx.fillRect(0,0,canvasSize.width, canvasSize.height)
-                var number = gamearea.board.length
-                var fieldheight = canvasSize.height / number
-                var fieldwidth = canvasSize.width / number
-                for(var i = 0; i < number ; i++) {
-                    for(var j = 0 ; j < number ; j++) {
-                        ctx.fillStyle = gamearea.board[i][j]
-                        ctx.fillRect(Math.ceil(i*fieldwidth), Math.ceil(j* fieldheight), Math.ceil(fieldwidth), Math.ceil( fieldheight))
-                    }
-                }
-            }
-        }
-
-        Row {
-            anchors.bottom: gamearea.bottom
-            height: 100
-            id: selector
-            Repeater {
-                model: gamearea.colorList
-                Button {
-                    height: selector.height
-                    width: gamearea.width / gamearea.colorList.length
-                    enabled: !gamearea.filled
-                    onClicked: gamearea.fill(modelData, gamearea.board)
-                    Rectangle {
-                        anchors.margins: 5
-                        anchors.fill: parent
-                        color: modelData
-                    }
-                }
-            }
         }
     }
 }
