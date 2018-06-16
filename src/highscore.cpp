@@ -23,23 +23,64 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QIcon>
 #include "highscore.h"
 
-
-
-
-int main(int argc, char *argv[])
+HighScore::HighScore(QObject* parent) : m_size(-1)
 {
-    QGuiApplication app(argc, argv);
-    app.setApplicationDisplayName("KolorFill");
-    app.setOrganizationName("kde.org");
-    app.setOrganizationDomain("kde.org");
-    app.setApplicationName("Kolorfill");
-    app.setWindowIcon(QIcon::fromTheme("color-fill"));
-    qmlRegisterType<HighScore>("KolorFill",1,0,"HighScore");
-    QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
-    return app.exec();
 }
+
+QString HighScore::settingsStringForSize(int size) // static
+{
+    return QStringLiteral("HighScore/size_%1").arg(size);
+}
+
+
+void HighScore::setSize(int size) {
+    if (size != m_size) {
+        m_size = size;
+        emit highscoreChanged();
+    }
+}
+
+int HighScore::size() const
+{
+    return m_size;
+}
+
+int HighScore::highscore() const
+{
+    if (m_size < 1 ) {
+        return -1;
+    }
+    int highscore = m_settings.value(settingsStringForSize(m_size),-1).toInt();
+    if (highscore < 1) {
+        return -1;
+    }
+    return highscore;
+}
+
+void HighScore::setHighscore(int highscore)
+{
+    if (m_size < 1 ) {
+        return;
+    }
+    m_settings.setValue(settingsStringForSize(m_size), highscore);
+    m_settings.sync();
+    emit highscoreChanged();
+}
+
+QVariantList HighScore::allHighscores() const
+{
+    QVariantList result;
+    for(int i = 0; i < 100 ; i++ ) {
+        auto string = settingsStringForSize(i);
+        if (m_settings.contains(string)) {
+            result << QVariant::fromValue(HighScoreElement(i,m_settings.value(string).toInt()));
+        }
+    }
+    return result;
+
+}
+
+
+

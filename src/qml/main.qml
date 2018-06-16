@@ -30,6 +30,7 @@ import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.2
 import "KolorFillUtils.js" as Utils
 import org.kde.kirigami 2.4 as Kirigami
+import KolorFill 1.0
 
 Kirigami.ApplicationWindow
 {
@@ -39,6 +40,11 @@ Kirigami.ApplicationWindow
     title: "KolorFill"
     header: Kirigami.Heading {
         text: "Fills: " + gamearea.fillcounter
+    }
+
+    HighScore {
+        id: highscorehandler
+        size: gamearea.boardsize;
     }
 
     globalDrawer: Kirigami.GlobalDrawer {
@@ -77,9 +83,33 @@ Kirigami.ApplicationWindow
         header: Kirigami.Heading {
             text: "High score"
         }
-        Label {
-            text: "Lowest fills will be placed here"
-            wrapMode: TextArea.Wrap
+        ColumnLayout {
+            ListView {
+                Layout.fillWidth: true
+                id: highscoreview
+                model: highscorehandler.allHighscores
+                height: 200
+                header: Row {
+                    Label {
+                        text: "Board size: "
+                        width: highscoreview.width / 2
+                    }
+                    Label {
+                        text: "Fills: "
+                        width: highscoreview.width / 2
+                    }
+                }
+                delegate: Row {
+                    Label {
+                        text: modelData.size
+                        width: highscoreview.width / 2
+                    }
+                    Label {
+                        text: modelData.highscore
+                        width: highscoreview.width / 2
+                    }
+                }
+            }
         }
     }
     Kirigami.OverlaySheet {
@@ -87,11 +117,18 @@ Kirigami.ApplicationWindow
         header: Kirigami.Heading {
             text: "Winner!"
         }
+        property bool highscorebeaten: false
         ColumnLayout {
             Label {
                 Layout.fillWidth: true
                 text: "You succesfully solved the puzzle in " + gamearea.fillcounter + " fills. Good luck beating that."
                 wrapMode: TextArea.Wrap
+            }
+            Label {
+                Layout.fillWidth: true
+                text: "You beat the highscore"
+                wrapMode: TextArea.Wrap
+                visible: winner.highscorebeaten
             }
             Button {
                 text: "Restart"
@@ -116,6 +153,12 @@ Kirigami.ApplicationWindow
             gamearea.restart()
         }
         onFilledChanged: {
+            if (filled) {
+                winner.highscorebeaten = (highscorehandler.highscore < gamearea.fillcounter) || (highscorehandler.highscore === -1)
+                if (winner.highscorebeaten) {
+                    highscorehandler.highscore = gamearea.fillcounter;
+                }
+            }
             winner.sheetOpen = filled
         }
         function fill(color,board) {
