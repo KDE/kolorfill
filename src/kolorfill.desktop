@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Kolorfill
+GenericName=Color filling game
+Comment=Color filling game
+Exec=kolorfill
+Icon=color-fill
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Games;
