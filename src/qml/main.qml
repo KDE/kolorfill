@@ -111,10 +111,7 @@ Kirigami.ApplicationWindow
         }
         onFilledChanged: {
             if (filled) {
-                console.log(highscorehandler.highscore)
-                console.log(gamearea.fillCounter)
                 winner.highscorebeaten = (highscorehandler.highscore > gamearea.fillCounter) || (highscorehandler.highscore === -1)
-                console.log(winner.highscorebeaten)
                 if (winner.highscorebeaten) {
                     highscorehandler.highscore = gamearea.fillCounter;
                 }
