@@ -1,7 +1,10 @@
 [Desktop Entry]
 Name=Kolorfill
+Name[x-test]=xxKolorfillxx
 GenericName=Color filling game
+GenericName[x-test]=xxColor filling gamexx
 Comment=Color filling game
+Comment[x-test]=xxColor filling gamexx
 Exec=kolorfill
 Icon=color-fill
 Terminal=false
