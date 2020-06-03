@@ -1,9 +1,12 @@
 [Desktop Entry]
 Name=Kolorfill
+Name[pt]=Kolorfill
 Name[x-test]=xxKolorfillxx
 GenericName=Color filling game
+GenericName[pt]=Jogo de preenchimento de cores
 GenericName[x-test]=xxColor filling gamexx
 Comment=Color filling game
+Comment[pt]=Jogo de preenchimento de cores
 Comment[x-test]=xxColor filling gamexx
 Exec=kolorfill
 Icon=color-fill
