@@ -1,12 +1,18 @@
 [Desktop Entry]
 Name=Kolorfill
+Name[fr]=Kolorfill
 Name[pt]=Kolorfill
+Name[sl]=Kolorfill
 Name[x-test]=xxKolorfillxx
 GenericName=Color filling game
+GenericName[fr]=Jeu de remplissage avec des couleurs
 GenericName[pt]=Jogo de preenchimento de cores
+GenericName[sl]=Igra zapolnjevanja barv
 GenericName[x-test]=xxColor filling gamexx
 Comment=Color filling game
+Comment[fr]=Jeu de remplissage avec des couleurs
 Comment[pt]=Jogo de preenchimento de cores
+Comment[sl]=Igra zapolnjevanja barv
 Comment[x-test]=xxColor filling gamexx
 Exec=kolorfill
 Icon=color-fill
