@@ -10,11 +10,11 @@ ColumnLayout {
         height: 200
         header: Row {
             Label {
-                text: "Board size: "
+                text: qsTr("Board size: ")
                 width: highscoreView.width / 2
             }
             Label {
-                text: "Fills: "
+                text: qsTr("Fills: ")
                 width: highscoreView.width / 2
             }
         }

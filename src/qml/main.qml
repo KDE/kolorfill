@@ -36,7 +36,7 @@ Kirigami.ApplicationWindow
     height: 640
     title: "KolorFill"
     header: Kirigami.Heading {
-        text: "Fills: " + gamearea.fillCounter
+        text: qsTr("Fills: %1").arg(gamearea.fillCounter)
     }
 
     HighScore {
@@ -49,17 +49,17 @@ Kirigami.ApplicationWindow
         titleIcon: "color-fill"
         actions: [
             Kirigami.Action {
-                text: "Restart"
+                text: qsTr("Restart")
                 iconName: "view-refresh"
                 onTriggered:gamearea.restart()
             },
             Kirigami.Action {
-                text: "Highscore"
+                text: qsTr("Highscore")
                 iconName: "games-highscores"
                 onTriggered: highscore.sheetOpen = true
             },
             Kirigami.Action {
-                text: "Help"
+                text: qsTr("Help")
                 iconName: "help-contents"
                 onTriggered: help.sheetOpen = true
             }
@@ -68,7 +68,7 @@ Kirigami.ApplicationWindow
 
     Kirigami.OverlaySheet {
         id: help
-        header: Kirigami.Heading { text: "Help" }
+        header: Kirigami.Heading { text: qsTr("Help") }
         Help {
         }
     }
@@ -76,7 +76,7 @@ Kirigami.ApplicationWindow
     Kirigami.OverlaySheet {
         id: highscore
         header: Kirigami.Heading {
-            text: "High score"
+            text: qsTr("High score")
         }
         HighScoreView {
              allHighscores: highscorehandler.allHighscores
@@ -87,7 +87,7 @@ Kirigami.ApplicationWindow
     Kirigami.OverlaySheet {
         id: winner
         header: Kirigami.Heading {
-            text: "Winner!"
+            text: qsTr("Winner!")
         }
         property alias highscorebeaten: winBanner.highscoreBeaten;
         Winner {

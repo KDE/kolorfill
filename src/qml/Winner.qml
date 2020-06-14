@@ -8,17 +8,17 @@ ColumnLayout {
     signal restartClicked()
     Label {
         Layout.fillWidth: true
-        text: "You succesfully solved the puzzle in " + fillCounter + " fills. Good luck beating that."
+        text: qsTr("You successfully solved the puzzle in %1 fills. Good luck beating that.").arg(fillCounter)
         wrapMode: TextArea.Wrap
     }
     Label {
         Layout.fillWidth: true
-        text: "You beat the highscore"
+        text: qsTr("You beat the highscore")
         wrapMode: TextArea.Wrap
         visible: highscoreBeaten
     }
     Button {
-        text: "Restart"
+        text: qsTr("Restart")
         onClicked: {
             restartClicked()
         }
