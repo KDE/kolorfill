@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- Copyright 2018 Sune Vuorela <sune@vuorela.dk>
+- SPDX-License-Identifier: MIT
+-->
+<component type="desktop-application">
+  <id>org.kde.kolorfill</id>
+  <name>Kolorfill</name>
+  <summary>Color filling game</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <developer_name>Sune Vuorela</developer_name>
+  <description>
+    <p>Kolorfill is a сolor filling game.</p>
+  </description>
+</component>
