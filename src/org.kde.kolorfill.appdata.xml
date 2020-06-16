@@ -6,11 +6,27 @@
 <component type="desktop-application">
   <id>org.kde.kolorfill</id>
   <name>Kolorfill</name>
+  <name xml:lang="ca">Kolorfill</name>
+  <name xml:lang="pt">Kolorfill</name>
+  <name xml:lang="uk">Kolorfill</name>
+  <name xml:lang="x-test">xxKolorfillxx</name>
   <summary>Color filling game</summary>
+  <summary xml:lang="ca">Joc d'emplenat de color</summary>
+  <summary xml:lang="pt">Jogo de preenchimento de cores</summary>
+  <summary xml:lang="uk">Гра у заповнення кольором</summary>
+  <summary xml:lang="x-test">xxColor filling gamexx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <developer_name>Sune Vuorela</developer_name>
+  <developer_name xml:lang="ca">Sune Vuorela</developer_name>
+  <developer_name xml:lang="pt">Sune Vuorela</developer_name>
+  <developer_name xml:lang="uk">Sune Vuorela</developer_name>
+  <developer_name xml:lang="x-test">xxSune Vuorelaxx</developer_name>
   <description>
     <p>Kolorfill is a сolor filling game.</p>
+    <p xml:lang="ca">El Kolorfill és un joc d'emplenat de color.</p>
+    <p xml:lang="pt">O Kolorfill é um jogo de preenchimento de cores.</p>
+    <p xml:lang="uk">Kolorfill — гра у заповнення кольором.</p>
+    <p xml:lang="x-test">xxKolorfill is a сolor filling game.xx</p>
   </description>
 </component>
