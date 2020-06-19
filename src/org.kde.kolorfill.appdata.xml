@@ -14,6 +14,7 @@
   <name xml:lang="pt-BR">Kolorfill</name>
   <name xml:lang="sk">Kolorfill</name>
   <name xml:lang="sl">Kolorfill</name>
+  <name xml:lang="sv">Kolorfill</name>
   <name xml:lang="uk">Kolorfill</name>
   <name xml:lang="x-test">xxKolorfillxx</name>
   <summary>Color filling game</summary>
@@ -24,6 +25,7 @@
   <summary xml:lang="pt-BR">Jogo de preenchimento de cores</summary>
   <summary xml:lang="sk">Hra na vypĺňanie farieb</summary>
   <summary xml:lang="sl">Igra polnjenja barv</summary>
+  <summary xml:lang="sv">Färgläggningsspel</summary>
   <summary xml:lang="uk">Гра у заповнення кольором</summary>
   <summary xml:lang="x-test">xxColor filling gamexx</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -37,6 +39,7 @@
   <developer_name xml:lang="pt-BR">Sune Vuorela</developer_name>
   <developer_name xml:lang="sk">Sune Vuorela</developer_name>
   <developer_name xml:lang="sl">Sune Vuorela</developer_name>
+  <developer_name xml:lang="sv">Sune Vuorela</developer_name>
   <developer_name xml:lang="uk">Sune Vuorela</developer_name>
   <developer_name xml:lang="x-test">xxSune Vuorelaxx</developer_name>
   <description>
@@ -48,6 +51,7 @@
     <p xml:lang="pt-BR">O Kolorfill é um jogo de preenchimento de cores.</p>
     <p xml:lang="sk">Kolorfill je hra na vypĺňanie farieb.</p>
     <p xml:lang="sl">Kolorfill je igra polnjenja barv.</p>
+    <p xml:lang="sv">Kolorfill är ett färgläggningsspel.</p>
     <p xml:lang="uk">Kolorfill — гра у заповнення кольором.</p>
     <p xml:lang="x-test">xxKolorfill is a сolor filling game.xx</p>
   </description>
