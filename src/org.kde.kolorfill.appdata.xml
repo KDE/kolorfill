@@ -8,6 +8,7 @@
   <name>Kolorfill</name>
   <name xml:lang="ca">Kolorfill</name>
   <name xml:lang="cs">Kolorfill</name>
+  <name xml:lang="es">Kolorfill</name>
   <name xml:lang="it">Kolorfill</name>
   <name xml:lang="nl">Kolorfill</name>
   <name xml:lang="pt">Kolorfill</name>
@@ -19,6 +20,7 @@
   <name xml:lang="x-test">xxKolorfillxx</name>
   <summary>Color filling game</summary>
   <summary xml:lang="ca">Joc d'emplenat de color</summary>
+  <summary xml:lang="es">Juego de relleno de color</summary>
   <summary xml:lang="it">Gioco di riempimento dei colori</summary>
   <summary xml:lang="nl">Spel met kleuren vullen</summary>
   <summary xml:lang="pt">Jogo de preenchimento de cores</summary>
@@ -33,6 +35,7 @@
   <developer_name>Sune Vuorela</developer_name>
   <developer_name xml:lang="ca">Sune Vuorela</developer_name>
   <developer_name xml:lang="cs">Sune Vuorela</developer_name>
+  <developer_name xml:lang="es">Sune Vuorela</developer_name>
   <developer_name xml:lang="it">Sune Vuorela</developer_name>
   <developer_name xml:lang="nl">Sune Vuorela</developer_name>
   <developer_name xml:lang="pt">Sune Vuorela</developer_name>
@@ -45,6 +48,7 @@
   <description>
     <p>Kolorfill is a сolor filling game.</p>
     <p xml:lang="ca">El Kolorfill és un joc d'emplenat de color.</p>
+    <p xml:lang="es">Kolorfill es un juego de relleno de color.</p>
     <p xml:lang="it">Kolorfill è un gioco di riempimento dei colori.</p>
     <p xml:lang="nl">Kolorfill is een spel met vullen van kleuren.</p>
     <p xml:lang="pt">O Kolorfill é um jogo de preenchimento de cores.</p>
