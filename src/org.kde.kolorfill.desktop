@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Kolorfill
+Name[ar]=تعبئة الألوان
 Name[ca]=Kolorfill
 Name[ca@valencia]=Kolorfill
 Name[cs]=Kolorfill
@@ -23,6 +24,7 @@ Name[sv]=Kolorfill
 Name[uk]=Kolorfill
 Name[x-test]=xxKolorfillxx
 GenericName=Color filling game
+GenericName[ar]=لعبة تعبئة الألوان
 GenericName[ca]=Joc d'emplenat de color
 GenericName[ca@valencia]=Joc d'emplenat de color
 GenericName[de]=Farbfüllspiel
@@ -45,6 +47,7 @@ GenericName[sv]=Färgläggningsspel
 GenericName[uk]=Гра у заповнення кольором
 GenericName[x-test]=xxColor filling gamexx
 Comment=Color filling game
+Comment[ar]=لعبة تعبئة الألوان
 Comment[ca]=Joc d'emplenat de color
 Comment[ca@valencia]=Joc d'emplenat de color
 Comment[de]=Farbfüllspiel
