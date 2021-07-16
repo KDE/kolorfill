@@ -6,6 +6,7 @@
 <component type="desktop-application">
   <id>org.kde.kolorfill</id>
   <name>Kolorfill</name>
+  <name xml:lang="ar">تعبئة الألوان</name>
   <name xml:lang="ca">Kolorfill</name>
   <name xml:lang="ca-valencia">Kolorfill</name>
   <name xml:lang="cs">Kolorfill</name>
@@ -29,6 +30,7 @@
   <name xml:lang="uk">Kolorfill</name>
   <name xml:lang="x-test">xxKolorfillxx</name>
   <summary>Color filling game</summary>
+  <summary xml:lang="ar">لعبة تعبئة الألوان</summary>
   <summary xml:lang="ca">Joc d'emplenat de color</summary>
   <summary xml:lang="ca-valencia">Joc d'emplenat de color</summary>
   <summary xml:lang="de">Farbfüllspiel</summary>
@@ -53,6 +55,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <developer_name>Sune Vuorela</developer_name>
+  <developer_name xml:lang="ar">Sune Vuorela</developer_name>
   <developer_name xml:lang="ca">Sune Vuorela</developer_name>
   <developer_name xml:lang="ca-valencia">Sune Vuorela</developer_name>
   <developer_name xml:lang="cs">Sune Vuorela</developer_name>
@@ -77,6 +80,7 @@
   <developer_name xml:lang="x-test">xxSune Vuorelaxx</developer_name>
   <description>
     <p>Kolorfill is a сolor filling game.</p>
+    <p xml:lang="ar">تعبئة الألوان هي لعبة تعبئ بها اللوحة بأقل عدد من التعبيات.</p>
     <p xml:lang="ca">El Kolorfill és un joc d'emplenat de color.</p>
     <p xml:lang="ca-valencia">El Kolorfill és un joc d'emplenat de color.</p>
     <p xml:lang="de">Kolorfill ist ein Farbfüllspiel.</p>
