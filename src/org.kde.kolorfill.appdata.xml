@@ -29,6 +29,7 @@
   <name xml:lang="sv">Kolorfill</name>
   <name xml:lang="uk">Kolorfill</name>
   <name xml:lang="x-test">xxKolorfillxx</name>
+  <name xml:lang="zh-CN">Kolorfill</name>
   <summary>Color filling game</summary>
   <summary xml:lang="ar">لعبة تعبئة الألوان</summary>
   <summary xml:lang="ca">Joc d'emplenat de color</summary>
@@ -52,6 +53,7 @@
   <summary xml:lang="sv">Färgläggningsspel</summary>
   <summary xml:lang="uk">Гра у заповнення кольором</summary>
   <summary xml:lang="x-test">xxColor filling gamexx</summary>
+  <summary xml:lang="zh-CN">填色解谜游戏</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <developer_name>Sune Vuorela</developer_name>
@@ -78,6 +80,7 @@
   <developer_name xml:lang="sv">Sune Vuorela</developer_name>
   <developer_name xml:lang="uk">Sune Vuorela</developer_name>
   <developer_name xml:lang="x-test">xxSune Vuorelaxx</developer_name>
+  <developer_name xml:lang="zh-CN">Sune Vuorela</developer_name>
   <description>
     <p>Kolorfill is a сolor filling game.</p>
     <p xml:lang="ar">تعبئة الألوان هي لعبة تعبئ بها اللوحة بأقل عدد من التعبيات.</p>
@@ -102,5 +105,6 @@
     <p xml:lang="sv">Kolorfill är ett färgläggningsspel.</p>
     <p xml:lang="uk">Kolorfill — гра у заповнення кольором.</p>
     <p xml:lang="x-test">xxKolorfill is a сolor filling game.xx</p>
+    <p xml:lang="zh-CN">Kolorfill 是一款填色解谜游戏。</p>
   </description>
 </component>
