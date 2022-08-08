@@ -25,7 +25,7 @@
 
 #include "highscore.h"
 
-HighScore::HighScore(QObject* parent) : m_size(-1)
+HighScore::HighScore(QObject* parent) : QObject(parent), m_size(-1)
 {
 }
 
