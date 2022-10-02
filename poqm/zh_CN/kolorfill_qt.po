@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"PO-Revision-Date: 2022-09-20 01:57\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kolorfill/kolorfill_qt.pot\n"
+"X-Crowdin-File-ID: 24368\n"
+
+#: qml/Help.qml:4
+msgctxt "Help|"
+msgid ""
+"Simple color fill application. By selecting a color, the board gets flood "
+"filled from top left. The goal is to make the board in one color in as few "
+"fills as possible."
+msgstr ""
+"简易填色游戏。选择一种颜色后，从左上角开始填充棋盘。游戏的目的是用尽可能少的"
+"填充次数来将整个棋盘变成单色。"
+
+#: qml/HighScoreView.qml:13
+msgctxt "HighScoreView|"
+msgid "Board size: "
+msgstr "棋盘大小： "
+
+#: qml/HighScoreView.qml:17
+msgctxt "HighScoreView|"
+msgid "Fills: "
+msgstr "填充： "
+
+#: qml/main.qml:39
+#, qt-format
+msgctxt "main|"
+msgid "Fills: %1"
+msgstr "填充：%1"
+
+#: qml/main.qml:52
+msgctxt "main|"
+msgid "Restart"
+msgstr "重新开始"
+
+#: qml/main.qml:57
+msgctxt "main|"
+msgid "Highscore"
+msgstr "高分榜"
+
+#: qml/main.qml:62 qml/main.qml:71
+msgctxt "main|"
+msgid "Help"
+msgstr "帮助"
+
+#: qml/main.qml:79
+msgctxt "main|"
+msgid "High score"
+msgstr "高分榜"
+
+#: qml/main.qml:90
+msgctxt "main|"
+msgid "Winner!"
+msgstr "成功！"
+
+#: qml/Winner.qml:11
+#, qt-format
+msgctxt "Winner|"
+msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
+msgstr "您成功通过 %1 次填充解决了此谜题。请再接再厉！"
+
+#: qml/Winner.qml:16
+msgctxt "Winner|"
+msgid "You beat the highscore"
+msgstr "您打破了高分榜记录"
+
+#: qml/Winner.qml:21
+msgctxt "Winner|"
+msgid "Restart"
+msgstr "重新开始"

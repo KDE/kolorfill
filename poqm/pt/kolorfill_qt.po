@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kolorfill_qt\n"
+"PO-Revision-Date: 2020-06-15 14:14+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Portuguese <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: qml/Help.qml:4
+msgctxt "Help|"
+msgid ""
+"Simple color fill application. By selecting a color, the board gets flood "
+"filled from top left. The goal is to make the board in one color in as few "
+"fills as possible."
+msgstr ""
+"Uma aplicação simples de preenchimento de cores. Ao seleccionar uma cor, o "
+"tabuleiro fica todo preenchido a partir do canto superior esquerdo. O "
+"objectivo é deixar o tabuleiro de uma cor única com o mínimo de "
+"preenchimentos possível."
+
+#: qml/HighScoreView.qml:13
+msgctxt "HighScoreView|"
+msgid "Board size: "
+msgstr "Tamanho do tabuleiro: "
+
+#: qml/HighScoreView.qml:17
+msgctxt "HighScoreView|"
+msgid "Fills: "
+msgstr "Preenchimentos: "
+
+#: qml/main.qml:39
+#, qt-format
+msgctxt "main|"
+msgid "Fills: %1"
+msgstr "Preenchimentos: %1"
+
+#: qml/main.qml:52
+msgctxt "main|"
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: qml/main.qml:57
+msgctxt "main|"
+msgid "Highscore"
+msgstr "Recorde"
+
+#: qml/main.qml:62 qml/main.qml:71
+msgctxt "main|"
+msgid "Help"
+msgstr "Ajuda"
+
+#: qml/main.qml:79
+msgctxt "main|"
+msgid "High score"
+msgstr "Recorde"
+
+#: qml/main.qml:90
+msgctxt "main|"
+msgid "Winner!"
+msgstr "Vencedor!"
+
+#: qml/Winner.qml:11
+#, qt-format
+msgctxt "Winner|"
+msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
+msgstr ""
+"Resolveu com sucesso o 'puzzle' com %1 preenchimentos. Boa sorte a tentar "
+"reduzir esse valor."
+
+#: qml/Winner.qml:16
+msgctxt "Winner|"
+msgid "You beat the highscore"
+msgstr "Bateu o recorde"
+
+#: qml/Winner.qml:21
+msgctxt "Winner|"
+msgid "Restart"
+msgstr "Reiniciar"

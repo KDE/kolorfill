@@ -1,0 +1,84 @@
+# Vincenzo Reale <smart2128vr@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2020-06-15 20:32+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 20.04.1\n"
+"X-Qt-Contexts: true\n"
+
+#: qml/Help.qml:4
+msgctxt "Help|"
+msgid ""
+"Simple color fill application. By selecting a color, the board gets flood "
+"filled from top left. The goal is to make the board in one color in as few "
+"fills as possible."
+msgstr ""
+"Semplice applicazione di riempimento dei colori. Selezionando un colore, il "
+"piano viene riempito dalla parte in alto a sinistra. L'obiettivo è quello di "
+"rendere il piano di un colore nel minor numero di riempimenti possibile."
+
+#: qml/HighScoreView.qml:13
+msgctxt "HighScoreView|"
+msgid "Board size: "
+msgstr "Dimensioni del piano: "
+
+#: qml/HighScoreView.qml:17
+msgctxt "HighScoreView|"
+msgid "Fills: "
+msgstr "Riempimenti"
+
+#: qml/main.qml:39
+#, qt-format
+msgctxt "main|"
+msgid "Fills: %1"
+msgstr "Riempimenti: %1"
+
+#: qml/main.qml:52
+msgctxt "main|"
+msgid "Restart"
+msgstr "Riavvia"
+
+#: qml/main.qml:57
+msgctxt "main|"
+msgid "Highscore"
+msgstr "Classifica"
+
+#: qml/main.qml:62 qml/main.qml:71
+msgctxt "main|"
+msgid "Help"
+msgstr "Aiuto"
+
+#: qml/main.qml:79
+msgctxt "main|"
+msgid "High score"
+msgstr "Punteggio più alto"
+
+#: qml/main.qml:90
+msgctxt "main|"
+msgid "Winner!"
+msgstr "Vincitore!"
+
+#: qml/Winner.qml:11
+#, qt-format
+msgctxt "Winner|"
+msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
+msgstr ""
+"Hai risolto con successo il puzzle in %1 riempimenti. Buona fortuna per "
+"batterlo."
+
+#: qml/Winner.qml:16
+msgctxt "Winner|"
+msgid "You beat the highscore"
+msgstr "Hai battuto il punteggio più alto"
+
+#: qml/Winner.qml:21
+msgctxt "Winner|"
+msgid "Restart"
+msgstr "Riavvia"

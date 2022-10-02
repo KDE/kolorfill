@@ -1,0 +1,89 @@
+# Translation of kolorfill_qt.po to Catalan
+# Copyright (C) 2020-2022 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kolorfill\n"
+"PO-Revision-Date: 2022-06-21 16:44+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#: qml/Help.qml:4
+msgctxt "Help|"
+msgid ""
+"Simple color fill application. By selecting a color, the board gets flood "
+"filled from top left. The goal is to make the board in one color in as few "
+"fills as possible."
+msgstr ""
+"Aplicació senzilla d'emplenament de color. En seleccionar un color, el "
+"tauler es va omplint des de la part superior esquerra. L'objectiu és fer el "
+"tauler en un color en els mínims emplenaments possibles."
+
+#: qml/HighScoreView.qml:13
+msgctxt "HighScoreView|"
+msgid "Board size: "
+msgstr "Mida del tauler: "
+
+#: qml/HighScoreView.qml:17
+msgctxt "HighScoreView|"
+msgid "Fills: "
+msgstr "Emplenaments:"
+
+#: qml/main.qml:39
+#, qt-format
+msgctxt "main|"
+msgid "Fills: %1"
+msgstr "Emplenaments: %1"
+
+#: qml/main.qml:52
+msgctxt "main|"
+msgid "Restart"
+msgstr "Reinicia"
+
+#: qml/main.qml:57
+msgctxt "main|"
+msgid "Highscore"
+msgstr "Millor puntuació"
+
+#: qml/main.qml:62 qml/main.qml:71
+msgctxt "main|"
+msgid "Help"
+msgstr "Ajuda"
+
+#: qml/main.qml:79
+msgctxt "main|"
+msgid "High score"
+msgstr "Puntuació màxima"
+
+#: qml/main.qml:90
+msgctxt "main|"
+msgid "Winner!"
+msgstr "Guanyador!"
+
+#: qml/Winner.qml:11
+#, qt-format
+msgctxt "Winner|"
+msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
+msgstr ""
+"Has resolt correctament el puzle en %1 emplenaments. Bona sort superant això."
+
+#: qml/Winner.qml:16
+msgctxt "Winner|"
+msgid "You beat the highscore"
+msgstr "Has batut la puntuació màxima"
+
+#: qml/Winner.qml:21
+msgctxt "Winner|"
+msgid "Restart"
+msgstr "Reinicia"

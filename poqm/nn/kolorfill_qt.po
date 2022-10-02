@@ -1,0 +1,88 @@
+# Translation of kolorfill_qt to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2020-08-30 20:21+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: qtrich\n"
+"X-Qt-Contexts: true\n"
+
+#: qml/Help.qml:4
+msgctxt "Help|"
+msgid ""
+"Simple color fill application. By selecting a color, the board gets flood "
+"filled from top left. The goal is to make the board in one color in as few "
+"fills as possible."
+msgstr ""
+"Enkelt fargeleggings­spel. Når du vel ein farge, vert brettet fargelagt frå "
+"ruta oppe til venstre. Målet er farge­leggja heile brettet med så få farge­"
+"leggingar som mogleg."
+
+#: qml/HighScoreView.qml:13
+msgctxt "HighScoreView|"
+msgid "Board size: "
+msgstr "Brettstorleik: "
+
+#: qml/HighScoreView.qml:17
+msgctxt "HighScoreView|"
+msgid "Fills: "
+msgstr "Fargeleggingar: "
+
+#: qml/main.qml:39
+#, qt-format
+msgctxt "main|"
+msgid "Fills: %1"
+msgstr "Fargeleggingar: %1"
+
+#: qml/main.qml:52
+msgctxt "main|"
+msgid "Restart"
+msgstr "Start på nytt"
+
+#: qml/main.qml:57
+msgctxt "main|"
+msgid "Highscore"
+msgstr "Rekord"
+
+#: qml/main.qml:62 qml/main.qml:71
+msgctxt "main|"
+msgid "Help"
+msgstr "Hjelp"
+
+#: qml/main.qml:79
+msgctxt "main|"
+msgid "High score"
+msgstr "Rekord"
+
+#: qml/main.qml:90
+msgctxt "main|"
+msgid "Winner!"
+msgstr "Vinnar!"
+
+# «Good luck beating that» får det til å høyrast ut som ein rekord. Men ein får alltid denne meldinga, sjølv om ein gjer det veldig dårleg. Så det vert misvisande å omtala det som ein rekord.
+#: qml/Winner.qml:11
+#, qt-format
+msgctxt "Winner|"
+msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
+msgstr "Du klarte spelet med %1 fargeleggingar. Gratulerer."
+
+#: qml/Winner.qml:16
+msgctxt "Winner|"
+msgid "You beat the highscore"
+msgstr "Du slo rekorden"
+
+#: qml/Winner.qml:21
+msgctxt "Winner|"
+msgid "Restart"
+msgstr "Start på nytt"
