@@ -17,6 +17,7 @@
   <name xml:lang="eu">Kolorfill</name>
   <name xml:lang="fi">Kolorfill</name>
   <name xml:lang="fr">Kolorfill</name>
+  <name xml:lang="gl">Kolorfill</name>
   <name xml:lang="hi">कलरफ़िल</name>
   <name xml:lang="id">Kolorfill</name>
   <name xml:lang="it">Kolorfill</name>
@@ -45,6 +46,7 @@
   <summary xml:lang="eu">Kolorea betetzeko jokoa</summary>
   <summary xml:lang="fi">Väritäyttöpeli</summary>
   <summary xml:lang="fr">Jeu de remplissage de couleurs</summary>
+  <summary xml:lang="gl">Xogo de colorar</summary>
   <summary xml:lang="hi">रंग भरने का खेल</summary>
   <summary xml:lang="id">Permainan mewarnai</summary>
   <summary xml:lang="it">Gioco di riempimento dei colori</summary>
@@ -76,6 +78,7 @@
   <developer_name xml:lang="eu">Sune Vuorela</developer_name>
   <developer_name xml:lang="fi">Sune Vuorela</developer_name>
   <developer_name xml:lang="fr">Sune Vuorela</developer_name>
+  <developer_name xml:lang="gl">Sune Vuorela</developer_name>
   <developer_name xml:lang="hi">सुने वुओरेला</developer_name>
   <developer_name xml:lang="id">Sune Vuorela</developer_name>
   <developer_name xml:lang="it">Sune Vuorela</developer_name>
@@ -105,6 +108,7 @@
     <p xml:lang="eu">Kolorfill kolorea betetzeko joko bat da.</p>
     <p xml:lang="fi">Kolorfill on väritäyttöpeli.</p>
     <p xml:lang="fr">Kolorfill est un jeu de remplissage de couleurs.</p>
+    <p xml:lang="gl">Kolorfill é un xogo de colorar.</p>
     <p xml:lang="hi">कलरफ़िल एक रंग भरने का खेल है।</p>
     <p xml:lang="id">Kolorfill adalah sebuah permainan mewarnai.</p>
     <p xml:lang="it">Kolorfill è un gioco di riempimento dei colori.</p>
