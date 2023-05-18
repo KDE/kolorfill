@@ -92,4 +92,4 @@ Icon=color-fill
 Terminal=false
 Type=Application
 StartupNotify=false
-Categories=Games;
+Categories=Game;
