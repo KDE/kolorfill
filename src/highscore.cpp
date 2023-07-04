@@ -82,5 +82,4 @@ QVariantList HighScore::allHighscores() const
 
 }
 
-
-
+#include "moc_highscore.cpp"
