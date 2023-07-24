@@ -20,9 +20,8 @@ msgid ""
 "filled from top left. The goal is to make the board in one color in as few "
 "fills as possible."
 msgstr ""
-"간단한 색 채우기 프로그램입니다. 색을 선택하면 보드를 왼쪽 위에서 채워 나갑니"
-"다. 게임의 목표는 보드를 가능한 한 적은 클릭으로 한 가지 색으로 채우는 것입니"
-"다."
+"간단한 색 채우기 앱입니다. 색을 선택하면 보드를 왼쪽 위에서 채워 나갑니다. 게"
+"임의 목표는 보드를 가능한 한 적은 클릭으로 한 가지 색으로 채우는 것입니다."
 
 #: qml/HighScoreView.qml:13
 msgctxt "HighScoreView|"
