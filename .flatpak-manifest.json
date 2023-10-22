@@ -8,7 +8,7 @@
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": ["--share=ipc", "--socket=fallback-x11", "--socket=wayland" ],
-
+    "rename-icon": "color-fill",
     "modules": [
        {
             "name": "kolorfill",
