@@ -131,4 +131,5 @@
     <p xml:lang="x-test">xxKolorfill is a сolor filling game.xx</p>
     <p xml:lang="zh-CN">Kolorfill 是一款填色解谜游戏。</p>
   </description>
+  <launchable type="desktop-id">org.kde.kolorfill.desktop</launchable>
 </component>
