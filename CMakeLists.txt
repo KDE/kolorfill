@@ -16,5 +16,3 @@ add_subdirectory(src)
 add_subdirectory(autotests)
 # Subdirectories
 ecm_install_po_files_as_qm(poqm)
-
-install(FILES kolorfill.png DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
