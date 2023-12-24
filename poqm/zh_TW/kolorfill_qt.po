@@ -1,14 +1,17 @@
+# SPDX-FileCopyrightText: 2023 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: pan 93412\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-24 05:11+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #: qml/Help.qml:4
 msgctxt "Help|"
@@ -17,60 +20,62 @@ msgid ""
 "filled from top left. The goal is to make the board in one color in as few "
 "fills as possible."
 msgstr ""
+"簡單的填色應用程式。選取顏色後，棋盤會被從左上方填滿。遊戲目標是要用最少次的"
+"填色來把棋盤變成同一個顏色。"
 
 #: qml/HighScoreView.qml:13
 msgctxt "HighScoreView|"
 msgid "Board size: "
-msgstr ""
+msgstr "棋盤大小： "
 
 #: qml/HighScoreView.qml:17
 msgctxt "HighScoreView|"
 msgid "Fills: "
-msgstr ""
+msgstr "填色次數："
 
 #: qml/main.qml:39
 #, qt-format
 msgctxt "main|"
 msgid "Fills: %1"
-msgstr ""
+msgstr "填色次數：%1"
 
 #: qml/main.qml:52
 msgctxt "main|"
 msgid "Restart"
-msgstr ""
+msgstr "重新開始"
 
 #: qml/main.qml:57
 msgctxt "main|"
 msgid "Highscore"
-msgstr ""
+msgstr "高分榜"
 
 #: qml/main.qml:62 qml/main.qml:71
 msgctxt "main|"
 msgid "Help"
-msgstr ""
+msgstr "說明"
 
 #: qml/main.qml:79
 msgctxt "main|"
 msgid "High score"
-msgstr ""
+msgstr "高分榜"
 
 #: qml/main.qml:90
 msgctxt "main|"
 msgid "Winner!"
-msgstr ""
+msgstr "贏家！"
 
 #: qml/Winner.qml:11
 #, qt-format
 msgctxt "Winner|"
 msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
-msgstr ""
+msgstr "您成功在填色 %1 次後解決了挑戰。恐怕很難再贏過您了。"
 
 #: qml/Winner.qml:16
 msgctxt "Winner|"
 msgid "You beat the highscore"
-msgstr ""
+msgstr "您贏得了高分"
 
 #: qml/Winner.qml:21
 msgctxt "Winner|"
 msgid "Restart"
-msgstr ""
+msgstr "重新開始"
