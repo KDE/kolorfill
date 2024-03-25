@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kolorfill\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 13:43+0100\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -30,18 +30,18 @@ msgstr ""
 #: qml/HighScoreView.qml:13
 msgctxt "HighScoreView|"
 msgid "Board size: "
-msgstr ""
+msgstr "Grandeco de la tabulo:"
 
 #: qml/HighScoreView.qml:17
 msgctxt "HighScoreView|"
 msgid "Fills: "
-msgstr ""
+msgstr "Plenigaĵoj:"
 
 #: qml/main.qml:39
 #, qt-format
 msgctxt "main|"
 msgid "Fills: %1"
-msgstr ""
+msgstr "Plenigaĵoj: %1"
 
 #: qml/main.qml:52
 msgctxt "main|"
@@ -61,23 +61,23 @@ msgstr "Helpo"
 #: qml/main.qml:79
 msgctxt "main|"
 msgid "High score"
-msgstr ""
+msgstr "Plej alta poentaro"
 
 #: qml/main.qml:90
 msgctxt "main|"
 msgid "Winner!"
-msgstr ""
+msgstr "Venkinto!"
 
 #: qml/Winner.qml:11
 #, qt-format
 msgctxt "Winner|"
 msgid "You successfully solved the puzzle in %1 fills. Good luck beating that."
-msgstr ""
+msgstr "Vi sukcese solvis la enigmon en %1 plenigaĵoj. Bonŝancon batante tion."
 
 #: qml/Winner.qml:16
 msgctxt "Winner|"
 msgid "You beat the highscore"
-msgstr ""
+msgstr "Vi venkis la maksimuman poentaron"
 
 #: qml/Winner.qml:21
 msgctxt "Winner|"
