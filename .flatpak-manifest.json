@@ -1,0 +1,31 @@
+{
+    "id": "org.kde.kolorfill",
+    "branch": "master",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-23.08",
+    "sdk": "org.kde.Sdk",
+    "command": "kolorfill",
+    "rename-icon": "kolorfill",
+    "tags": ["nightly"],
+    "desktop-file-name-suffix": " (Nightly)",
+    "finish-args": [
+        "--device=dri",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland"
+    ],
+
+    "modules": [
+        {
+            "name": "kolorfill",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                { "type": "dir", "path": "." },
+                { "type": "file", "path": "logo.png" }
+            ],
+            "post-install": [
+                "install -Dm644 logo.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/kolorfill.png"
+            ]
+        }
+    ]
+}
