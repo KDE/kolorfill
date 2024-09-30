@@ -5,6 +5,7 @@
 -->
 <component type="desktop-application">
   <id>org.kde.kolorfill</id>
+  <url type="homepage">https://apps.kde.org/kolorfill/</url>
   <name>Kolorfill</name>
   <name xml:lang="ar">تعبئة الألوان</name>
   <name xml:lang="ca">Kolorfill</name>
@@ -72,39 +73,9 @@
   <summary xml:lang="zh-TW">填色遊戲</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
-  <developer_name>Sune Vuorela</developer_name>
-  <developer_name xml:lang="ar">Sune Vuorela</developer_name>
-  <developer_name xml:lang="ca">Sune Vuorela</developer_name>
-  <developer_name xml:lang="ca-valencia">Sune Vuorela</developer_name>
-  <developer_name xml:lang="cs">Sune Vuorela</developer_name>
-  <developer_name xml:lang="de">Sune Vuorela</developer_name>
-  <developer_name xml:lang="el">Sune Vuorela</developer_name>
-  <developer_name xml:lang="en-GB">Sune Vuorela</developer_name>
-  <developer_name xml:lang="eo">Sune Vuorela</developer_name>
-  <developer_name xml:lang="es">Sune Vuorela</developer_name>
-  <developer_name xml:lang="eu">Sune Vuorela</developer_name>
-  <developer_name xml:lang="fi">Sune Vuorela</developer_name>
-  <developer_name xml:lang="fr">Sune Vuorela</developer_name>
-  <developer_name xml:lang="gl">Sune Vuorela</developer_name>
-  <developer_name xml:lang="hi">सुने वुओरेला</developer_name>
-  <developer_name xml:lang="id">Sune Vuorela</developer_name>
-  <developer_name xml:lang="it">Sune Vuorela</developer_name>
-  <developer_name xml:lang="ka">Sune Vuorela</developer_name>
-  <developer_name xml:lang="ko">Sune Vuorela</developer_name>
-  <developer_name xml:lang="nl">Sune Vuorela</developer_name>
-  <developer_name xml:lang="nn">Sune Vuorela</developer_name>
-  <developer_name xml:lang="pl">Sune Vuorela</developer_name>
-  <developer_name xml:lang="pt">Sune Vuorela</developer_name>
-  <developer_name xml:lang="pt-BR">Sune Vuorela</developer_name>
-  <developer_name xml:lang="ro">Sune Vuorela</developer_name>
-  <developer_name xml:lang="sk">Sune Vuorela</developer_name>
-  <developer_name xml:lang="sl">Sune Vuorela</developer_name>
-  <developer_name xml:lang="sv">Sune Vuorela</developer_name>
-  <developer_name xml:lang="tr">Sune Vuorela</developer_name>
-  <developer_name xml:lang="uk">Sune Vuorela</developer_name>
-  <developer_name xml:lang="x-test">xxSune Vuorelaxx</developer_name>
-  <developer_name xml:lang="zh-CN">Sune Vuorela</developer_name>
-  <developer_name xml:lang="zh-TW">Sune Vuorela</developer_name>
+  <developer>
+    <name translate="no">Sune Vuorela</name>
+  </developer>
   <description>
     <p>Kolorfill is a сolor filling game.</p>
     <p xml:lang="ar">تعبئة الألوان هي لعبة تعبئ بها اللوحة بأقل عدد من التعبيات.</p>
