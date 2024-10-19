@@ -75,7 +75,7 @@
   <summary xml:lang="zh-TW">填色遊戲</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
-  <developer>
+  <developer id="kde.org">
     <name translate="no">Sune Vuorela</name>
   </developer>
   <description>
