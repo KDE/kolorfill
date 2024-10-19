@@ -75,8 +75,8 @@
   <summary xml:lang="zh-TW">填色遊戲</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
-  <developer>
-    <name translate="no">Sune Vuorela</name>
+  <developer id="kde.org">
+    <name translate="no">KDE</name>
   </developer>
   <description>
     <p>Kolorfill is a сolor filling game.</p>
