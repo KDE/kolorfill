@@ -1,9 +1,10 @@
-# Eloy Cuadra <ecuadra@eloihr.net>, 2020.
+# SPDX-FileCopyrightText: 2020, 2024 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2024Sofía Priego <spriego@darksylvania.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kolorfill_qt\n"
-"PO-Revision-Date: 2020-08-24 04:14+0200\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"PO-Revision-Date: 2024-11-24 22:08+0100\n"
+"Last-Translator: Sofía Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: qml/Help.qml:4
 msgctxt "Help|"
@@ -22,12 +23,12 @@ msgid ""
 msgstr ""
 "Sencilla aplicación de relleno de color. Al seleccionar un color, el tablero "
 "se inunda desde la parte superior izquierda. El objetivo es dejar el tablero "
-"de un mismo color en el menor número de rellenos."
+"de un mismo color con el menor número de rellenos."
 
 #: qml/HighScoreView.qml:13
 msgctxt "HighScoreView|"
 msgid "Board size: "
-msgstr "Tamaño del tablero:"
+msgstr "Tamaño del tablero: "
 
 #: qml/HighScoreView.qml:17
 msgctxt "HighScoreView|"
