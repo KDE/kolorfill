@@ -1,9 +1,14 @@
+# Spanish translations for kolorfill_qt.po package.
+# Copyright (C) 2020-2025 This file is copyright:
+# This file is distributed under the same license as the kolorfill package.
+#
 # SPDX-FileCopyrightText: 2020, 2024 Eloy Cuadra <ecuadra@eloihr.net>
-# SPDX-FileCopyrightText: 2024Sofía Priego <spriego@darksylvania.net>
+# SPDX-FileCopyrightText: 2024, 2025 Sofía Priego <spriego@darksylvania.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kolorfill_qt\n"
-"PO-Revision-Date: 2024-11-24 22:08+0100\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2025-05-24 18:28+0100\n"
 "Last-Translator: Sofía Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
