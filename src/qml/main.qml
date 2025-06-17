@@ -50,18 +50,18 @@ Kirigami.ApplicationWindow
         actions: [
             Kirigami.Action {
                 text: qsTr("Restart")
-                iconName: "view-refresh"
+                icon.name: "view-refresh"
                 onTriggered:gamearea.restart()
             },
             Kirigami.Action {
                 text: qsTr("Highscore")
-                iconName: "games-highscores"
-                onTriggered: highscore.sheetOpen = true
+                icon.name: "games-highscores"
+                onTriggered: highscore.open();
             },
             Kirigami.Action {
                 text: qsTr("Help")
-                iconName: "help-contents"
-                onTriggered: help.sheetOpen = true
+                icon.name: "help-contents"
+                onTriggered: help.open()
             }
         ]
     }
@@ -95,7 +95,7 @@ Kirigami.ApplicationWindow
             fillCounter: gamearea.fillCounter
             onRestartClicked: {
                 gamearea.restart()
-                winner.sheetOpen = false
+                winner.close()
             }
         }
     }
@@ -115,8 +115,10 @@ Kirigami.ApplicationWindow
                 if (winner.highscorebeaten) {
                     highscorehandler.highscore = gamearea.fillCounter;
                 }
+                winner.open();
+            } else {
+                winner.close();
             }
-            winner.sheetOpen = filled
         }
     }
 }
