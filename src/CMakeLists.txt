@@ -7,4 +7,4 @@ target_link_libraries(kolorfill Qt::Qml Qt::Gui)
 
 install(TARGETS kolorfill DESTINATION ${KDE_INSTALL_BINDIR})
 install(FILES org.kde.kolorfill.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-install(FILES org.kde.kolorfill.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.kolorfill.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
