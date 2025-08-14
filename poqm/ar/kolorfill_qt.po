@@ -20,8 +20,8 @@ msgid ""
 "filled from top left. The goal is to make the board in one color in as few "
 "fills as possible."
 msgstr ""
-"تطبيق بسيط لتعبئة الألوان. عن طريق اختيار اللون ، تملأ اللوحة من أعلى "
-"اليسار. الهدف هو جعل السبورة بلون واحد بأقل عدد ممكن من التعبئات."
+"تطبيق بسيط لتعبئة الألوان. عن طريق اختيار اللون، تملأ اللوحة من أعلى اليسار. "
+"الهدف هو جعل السبورة بلون واحد بأقل عدد ممكن من التعبئات."
 
 #: qml/HighScoreView.qml:13
 msgctxt "HighScoreView|"
