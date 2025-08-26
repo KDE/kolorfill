@@ -26,6 +26,7 @@
   <name xml:lang="it">Kolorfill</name>
   <name xml:lang="ka">Kolorfill</name>
   <name xml:lang="ko">Kolorfill</name>
+  <name xml:lang="lv">Kolorfill</name>
   <name xml:lang="nl">Kolorfill</name>
   <name xml:lang="nn">Kolorfill</name>
   <name xml:lang="pl">Kolorfill</name>
@@ -59,6 +60,7 @@
   <summary xml:lang="it">Gioco di riempimento dei colori</summary>
   <summary xml:lang="ka">ფერის შევსების თამაში</summary>
   <summary xml:lang="ko">색 채우기 게임</summary>
+  <summary xml:lang="lv">Krāsu aizpildīšanas spēle</summary>
   <summary xml:lang="nl">Spel met kleuren vullen</summary>
   <summary xml:lang="nn">Fargeleggingsspel</summary>
   <summary xml:lang="pl">Gra w wypełnianie barwami</summary>
@@ -98,6 +100,7 @@
     <p xml:lang="it">Kolorfill è un gioco di riempimento dei colori.</p>
     <p xml:lang="ka">Kolorfill არის ფერის შევსების თამაში.</p>
     <p xml:lang="ko">Kolorfill은 색 채우기 게임입니다.</p>
+    <p xml:lang="lv">„Kolorfill“ ir krāsu aizpildīšanas spēle.</p>
     <p xml:lang="nl">Kolorfill is een spel met vullen van kleuren.</p>
     <p xml:lang="nn">Kolorfill er eit fargeleggingsspel.</p>
     <p xml:lang="pl">Kolorfill jest grą w wypełnianie barwami.</p>
