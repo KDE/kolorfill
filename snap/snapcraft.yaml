@@ -6,6 +6,7 @@ name: kolorfill
 confinement: strict
 grade: stable
 base: core24
+version: '0.1'
 adopt-info: kolorfill
 apps:
   kolorfill:
@@ -21,10 +22,8 @@ slots:
     bus: session
 parts:
   kolorfill:
-    after:
-      - futuresql
     parse-info:
-      - usr/share/metainfo/org.kde.kolorfill.appdata.xml
+      - usr/share/metainfo/org.kde.kolorfill.metainfo.xml
     plugin: cmake
     source: .
     source-type: local
