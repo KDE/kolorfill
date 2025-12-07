@@ -28,9 +28,6 @@
 #include <QIcon>
 #include "highscore.h"
 
-
-
-
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -38,7 +35,7 @@ int main(int argc, char *argv[])
     app.setOrganizationName("kde.org");
     app.setOrganizationDomain("kde.org");
     app.setApplicationName("Kolorfill");
-    app.setWindowIcon(QIcon::fromTheme("color-fill"));
+    app.setWindowIcon(QIcon::fromTheme("org.kde.kolorfill"));
     qmlRegisterType<HighScore>("KolorFill",1,0,"HighScore");
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
     return app.exec();
