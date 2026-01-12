@@ -26,7 +26,7 @@ msgid ""
 "filled from top left. The goal is to make the board in one color in as few "
 "fills as possible."
 msgstr ""
-"Aplicació senzilla d'emplenament de color. En seleccionar un color, el "
+"Aplicació senzilla d'emplenament de color. Quan se seleccione un color, el "
 "tauler es va omplint des de la part superior esquerra. L'objectiu és fer el "
 "tauler en un color en els mínims emplenaments possibles."
 
