@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-01-21 16:53+0100\n"
+"PO-Revision-Date: 2026-02-05 10:26+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -29,13 +29,13 @@ msgstr "Grandor de Tabula: "
 #: qml/HighScoreView.qml:17
 msgctxt "HighScoreView|"
 msgid "Fills: "
-msgstr ""
+msgstr "Reimple: "
 
 #: qml/main.qml:39
 #, qt-format
 msgctxt "main|"
 msgid "Fills: %1"
-msgstr ""
+msgstr "Reimple: %1"
 
 #: qml/main.qml:52
 msgctxt "main|"
@@ -45,7 +45,7 @@ msgstr "Re-Initia"
 #: qml/main.qml:57
 msgctxt "main|"
 msgid "Highscore"
-msgstr ""
+msgstr "Punctos alte"
 
 #: qml/main.qml:62 qml/main.qml:71
 msgctxt "main|"
@@ -55,7 +55,7 @@ msgstr "Adjuta"
 #: qml/main.qml:79
 msgctxt "main|"
 msgid "High score"
-msgstr ""
+msgstr "Punctos Alte"
 
 #: qml/main.qml:90
 msgctxt "main|"
