@@ -4,7 +4,7 @@ project(kolorfill)
 
 find_package(ECM 6.0.0 REQUIRED)
 set(KDE_COMPILERSETTINGS_LEVEL "5.82.0")
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
