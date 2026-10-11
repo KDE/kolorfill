@@ -36,6 +36,10 @@
   <name xml:lang="ro">Kolorfill</name>
   <name xml:lang="sk">Kolorfill</name>
   <name xml:lang="sl">Kolorfill</name>
+  <name xml:lang="sr">Kolorfill</name>
+  <name xml:lang="sr-Latn">Kolorfill</name>
+  <name xml:lang="sr-ijekavian">Kolorfill</name>
+  <name xml:lang="sr-ijekavianlatin">Kolorfill</name>
   <name xml:lang="sv">Kolorfill</name>
   <name xml:lang="tr">Kolorfill</name>
   <name xml:lang="uk">Kolorfill</name>
@@ -71,6 +75,10 @@
   <summary xml:lang="ro">Joc de umplere cu culori</summary>
   <summary xml:lang="sk">Hra na vypĺňanie farieb</summary>
   <summary xml:lang="sl">Igra polnjenja barv</summary>
+  <summary xml:lang="sr">Игра попуњавања бојама</summary>
+  <summary xml:lang="sr-Latn">Igra popunjavanja bojama</summary>
+  <summary xml:lang="sr-ijekavian">Игра попуњавања бојама</summary>
+  <summary xml:lang="sr-ijekavianlatin">Igra popunjavanja bojama</summary>
   <summary xml:lang="sv">Färgläggningsspel</summary>
   <summary xml:lang="tr">Renk doldurma oyunu</summary>
   <summary xml:lang="ug">رەڭ تولدۇرۇش ئويۇنى</summary>
@@ -113,6 +121,10 @@
     <p xml:lang="ro">Kolorfill e un joc de umplere cu culori.</p>
     <p xml:lang="sk">Kolorfill je hra na vypĺňanie farieb.</p>
     <p xml:lang="sl">Kolorfill je igra polnjenja barv.</p>
+    <p xml:lang="sr">Kolorfill је игра попуњавања бојама.</p>
+    <p xml:lang="sr-Latn">Kolorfill je igra popunjavanja bojama.</p>
+    <p xml:lang="sr-ijekavian">Kolorfill је игра попуњавања бојама.</p>
+    <p xml:lang="sr-ijekavianlatin">Kolorfill je igra popunjavanja bojama.</p>
     <p xml:lang="sv">Kolorfill är ett färgläggningsspel.</p>
     <p xml:lang="tr">Kolorfill, bir renk doldurma oyunudur.</p>
     <p xml:lang="uk">Kolorfill — гра у заповнення кольором.</p>
